@@ -90,6 +90,8 @@ nav {
     top: 90px;
 }
 .new{
+    font-size: 18px;
+    font-weight: 600;
     background: #00FF88;
     color: #1A0B2E;
     position: relative;
@@ -105,6 +107,9 @@ nav {
     font-size: 60px;
     margin-top: 40px;
     font-weight: 800;
+}
+.podcast-details > p{
+    opacity: 80%;
 }
 .podcast-btn{
     margin-top: 20px;
@@ -134,11 +139,48 @@ nav {
     color: #00FF88;
 }
 
+/* About Section */
 
-
-
-
-
+.podcast{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.podcast > h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.podcast > p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 160px;
+    opacity: 80%;
+}
+.viewer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+}
+.listeners-details{
+    width: 240px;
+    margin-bottom: 120px;
+    
+}
+.listeners-details > h2{
+    font-size: 48px;
+    text-align: center;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.listeners-details > p{
+    font-size: 16px;
+    text-align: center;
+    opacity: 80%;
+}
 
 
 
@@ -163,5 +205,11 @@ nav {
         display: block;
         margin-right: 10px;
         font-size: xx-large;
+    }
+    .about{
+        padding: 15px;
+    }
+    .viewer{
+        grid-template-columns: repeat(2,1fr);
     }
 }
