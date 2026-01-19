@@ -26,10 +26,9 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
 }
-.nav-ber h3{
+.nav-ber h3 {
     font-size: xx-large;
 }
-
 .nav-ber {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -38,44 +37,50 @@ nav {
     align-items: center;
 
 }
+
 .li-item ul {
     list-style: none;
 }
+
 .li-item ul li {
     display: inline;
     margin-left: 32px;
     font-size: 16px;
     font-weight: 500;
 }
-.gradient-color{
-    background: linear-gradient(45deg,#f7e83f, #FB09B4, #9100F8);
+
+.gradient-color {
+    background: linear-gradient(45deg, #f7e83f, #FB09B4, #9100F8);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.btn-1 button{
+
+.btn-1 button {
     color: white;
     padding: 12px 30px;
-    background: linear-gradient(45deg,#f7e83f, #FB09B4, #9100F8);
+    background: linear-gradient(45deg, #f7e83f, #FB09B4, #9100F8);
     border-radius: 30px;
     font-size: 16px;
     font-weight: 600;
     border: none;
     cursor: pointer;
 }
-.icon{
+
+.icon {
     display: none;
 }
 
- /* Banner section */
-.banner{
+/* Banner section */
+.banner {
     height: 750px;
     background-image: url(../assets/hero-bg.png);
 }
-.middle-container{
+
+.middle-container {
     margin-top: 85px;
 }
 
-.podcast-circle{
+.podcast-circle {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -84,12 +89,14 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 }
-.podcast-circle > img{
+
+.podcast-circle>img {
     position: relative;
     left: 48px;
     top: 90px;
 }
-.new{
+
+.new {
     font-size: 18px;
     font-weight: 600;
     background: #00FF88;
@@ -100,35 +107,41 @@ nav {
     padding: 8px 15px;
     border-radius: 18px;
 }
-.podcast-details{
+
+.podcast-details {
     text-align: center;
 }
-.podcast-details h2{
+
+.podcast-details h2 {
     font-size: 60px;
     margin-top: 40px;
     font-weight: 800;
 }
-.podcast-details > p{
+
+.podcast-details>p {
     opacity: 80%;
 }
-.podcast-btn{
+
+.podcast-btn {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 12px 10px;
 }
-.spotify-btn{
+
+.spotify-btn {
     cursor: pointer;
     font-size: 20px;
     width: 210px;
     color: white;
     border: none;
-    background: linear-gradient(45deg,#f7e83f, #FB09B4, #9100F8);
+    background: linear-gradient(45deg, #f7e83f, #FB09B4, #9100F8);
     border-radius: 50px;
     text-align: center;
 }
-.sub-btn{
+
+.sub-btn {
     cursor: pointer;
     font-size: 18px;
     border-radius: 90px;
@@ -140,41 +153,47 @@ nav {
 }
 
 /* About Section */
-.podcast{
+.podcast {
     max-width: 1200px;
     margin: 0 auto;
 }
-.podcast > h2{
+
+.podcast>h2 {
     margin-top: 50px;
     text-align: center;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
 }
-.podcast > p{
+
+.podcast>p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 160px;
     opacity: 80%;
 }
-.viewer{
+
+.viewer {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.listeners-details{
+
+.listeners-details {
     width: 240px;
     margin-bottom: 120px;
-    
+
 }
-.listeners-details > h2{
+
+.listeners-details>h2 {
     font-size: 48px;
     text-align: center;
     color: #00FF88;
     margin-bottom: 16px;
 }
-.listeners-details > p{
+
+.listeners-details>p {
     font-size: 16px;
     text-align: center;
     opacity: 80%;
@@ -184,28 +203,20 @@ nav {
 
 
 /* Featured Episodes */
-
-.featured{
-    /* border: 1px solid red; */
-    height: 1276px;
-}
-.episodes{
-    /* border: 1px solid gold; */
-    height: 538px;
+.episodes {
     max-width: 1200px;
     margin: 0 auto;
 }
-.episodes > h2{
+.episodes>h2 {
     text-align: center;
     padding-top: 120px;
     padding-bottom: 40px;
     font-size: 48px;
     font-weight: 700;
 }
-.episodes-item{
-    /* border: 1px solid palegreen; */
+.episodes-item {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 .vedios > h4{
@@ -215,35 +226,96 @@ nav {
     background-color: #250D44;
     gap: 10px;
 }
-.vedios > p{
+.vedios>p {
     padding: 12px 24px;
     font-size: 16px;
     line-height: 24px;
     opacity: 60%;
-    background-color: #250D44;  
+    background-color: #250D44;
 }
-.vedios > iframe{
+.vedios>iframe {
     border-radius: 24px 24px 0px 0px;
 }
-.duration{
+.duration {
     padding: 14px 6px 26px 24px;
 }
-.vedios > img{
+.vedios>img {
     padding-right: 10px;
 }
-
-.vedios >span{
-    /* border: 1px solid white; */
+.vedios>span {
     display: inline-block;
     width: 100%;
     background-color: #250D44;
     border-radius: 0px 0px 24px 24px;
 }
-.vedios-img{
-    /* border: 1px solid red; */
+.vedios-img {
     padding-left: 24px;
     background-color: #250D44;
 }
+
+
+/* Host Section */
+
+
+.host {
+    margin-top: 120px;
+}
+
+.host>h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+
+.host-container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(53, 17, 101, 0.4);
+
+}
+
+.details>h3 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.details > p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+    padding-bottom: 30px;
+}
+
+.icons {
+    padding-top: 16px;
+}
+
+.icons-container {
+    display: flex;
+    gap: 20px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.199);
+}
+
+.icons>img {
+    margin-left: 15px;
+}
+
+
+
 
 
 
@@ -259,29 +331,39 @@ nav {
 
 
 @media screen and (max-width:576px) {
+
     .li-item,
-    .btn-1{
+    .btn-1 {
         display: none;
     }
-    .icon{
+
+    .icon {
         display: block;
         margin-right: 10px;
         font-size: xx-large;
     }
-    .viewer{
-        grid-template-columns: repeat(2,1fr);
+
+    .viewer {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .episodes-item{
-        grid-template-columns: repeat(1,1fr);
+
+    .episodes-item {
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
-    .vedios > iframe{
+
+    .vedios > iframe {
         width: 480px;
     }
-    /* .items,
-    .items-2,
-    .items-02{
+
+    .host-container {
         flex-direction: column;
-        
-    } */
+    }
+
+    .details>h3 {
+        text-align: center;
+    }
+    .icons-container{
+        justify-content: center;
+    }
 }
