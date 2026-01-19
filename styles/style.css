@@ -140,7 +140,6 @@ nav {
 }
 
 /* About Section */
-
 .podcast{
     max-width: 1200px;
     margin: 0 auto;
@@ -163,7 +162,6 @@ nav {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 80px;
 }
 .listeners-details{
     width: 240px;
@@ -181,6 +179,13 @@ nav {
     text-align: center;
     opacity: 80%;
 }
+
+/* why chose section */
+
+
+
+
+
 
 
 
@@ -206,10 +211,13 @@ nav {
         margin-right: 10px;
         font-size: xx-large;
     }
-    .about{
-        padding: 15px;
-    }
     .viewer{
         grid-template-columns: repeat(2,1fr);
     }
+    /* .items,
+    .items-2,
+    .items-02{
+        flex-direction: column;
+        
+    } */
 }
