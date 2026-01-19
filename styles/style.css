@@ -7,9 +7,107 @@
     font-style: normal;
 }
 
-body{
+body {
     border: 1px solid red;
     background-color: #1A0B2E;
+    color: white;
     max-width: 1600px;
     margin: 0 auto;
+}
+
+/* Shared styles */
+
+
+
+/* nav-bar */
+
+nav {
+    margin-top: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.naveber h3{
+    font-size: xx-large;
+}
+
+.naveber {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.li-item ul {
+    list-style: none;
+}
+.li-item ul li {
+    display: inline;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.grediant-color{
+    background: linear-gradient(45deg,#f7e83f, #FB09B4, #9100F8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.btn-1 button{
+    color: white;
+    padding: 12px 30px;
+    background: linear-gradient(45deg,#f7e83f, #FB09B4, #9100F8);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .li-item,
+    .btn-1{
+        display: none;
+    }
+    .icon{
+        display: block;
+        margin-right: 10px;
+        font-size: xx-large;
+    }
 }
