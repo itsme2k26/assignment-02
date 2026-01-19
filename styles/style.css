@@ -183,10 +183,67 @@ nav {
 /* why chose section */
 
 
+/* Featured Episodes */
 
+.featured{
+    /* border: 1px solid red; */
+    height: 1276px;
+}
+.episodes{
+    /* border: 1px solid gold; */
+    height: 538px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.episodes > h2{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.episodes-item{
+    /* border: 1px solid palegreen; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.vedios > h4{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px 24px 12px 24px;
+    background-color: #250D44;
+    gap: 10px;
+}
+.vedios > p{
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 60%;
+    background-color: #250D44;  
+}
+.vedios > iframe{
+    border-radius: 24px 24px 0px 0px;
+}
+.duration{
+    padding: 14px 6px 26px 24px;
+}
+.vedios > img{
+    padding-right: 10px;
+}
 
-
-
+.vedios >span{
+    /* border: 1px solid white; */
+    display: inline-block;
+    width: 100%;
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
+}
+.vedios-img{
+    /* border: 1px solid red; */
+    padding-left: 24px;
+    background-color: #250D44;
+}
 
 
 
@@ -213,6 +270,13 @@ nav {
     }
     .viewer{
         grid-template-columns: repeat(2,1fr);
+    }
+    .episodes-item{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    .vedios > iframe{
+        width: 480px;
     }
     /* .items,
     .items-2,
