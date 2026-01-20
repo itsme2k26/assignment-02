@@ -8,7 +8,6 @@
 }
 
 body {
-    /* border: 1px solid red; */
     background-color: #1A0B2E;
     color: white;
     max-width: 1600px;
@@ -68,7 +67,9 @@ nav {
     display: none;
 }
 
+
 /* Banner section */
+
 .banner {
     height: 750px;
     background-image: url(../assets/hero-bg.png);
@@ -76,11 +77,9 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .middle-container {
     margin-top: 85px;
 }
-
 .podcast-circle {
     width: 350px;
     height: 350px;
@@ -90,13 +89,11 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .podcast-circle>img {
     position: relative;
     left: 48px;
     top: 90px;
 }
-
 .new {
     font-size: 18px;
     font-weight: 600;
@@ -108,22 +105,17 @@ nav {
     padding: 8px 15px;
     border-radius: 18px;
 }
-
-
 .podcast-details {
     text-align: center;
 }
-
 .podcast-details h2 {
     font-size: 60px;
     margin-top: 40px;
     font-weight: 800;
 }
-
 .podcast-details>p {
     opacity: 80%;
 }
-
 .podcast-btn {
     margin-top: 20px;
     display: flex;
@@ -131,7 +123,6 @@ nav {
     gap: 20px;
     padding: 12px 10px;
 }
-
 .spotify-btn {
     cursor: pointer;
     font-size: 20px;
@@ -142,7 +133,6 @@ nav {
     border-radius: 50px;
     text-align: center;
 }
-
 .sub-btn {
     cursor: pointer;
     font-size: 18px;
@@ -154,47 +144,44 @@ nav {
     color: #00FF88;
 }
 
+
+
 /* About Section */
+
 .podcast {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .podcast>h2 {
     margin-top: 50px;
     text-align: center;
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
-
 .podcast>p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 160px;
     opacity: 80%;
 }
-
 .viewer {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
 .listeners-details {
     max-width: 240px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 
 }
-
 .listeners-details>h2 {
     font-size: 48px;
     text-align: center;
     color: #00FF88;
     margin-bottom: 16px;
 }
-
 .listeners-details>p {
     font-size: 16px;
     text-align: center;
@@ -207,6 +194,7 @@ nav {
 
 .why {
     background-color: #230E3D;
+    padding-bottom: 220px;
 }
 
 .why>h2 {
@@ -263,14 +251,11 @@ nav {
     max-width: 790px;
     margin-bottom: 30px;
     padding: 40px;
-    /* height: 225px; */
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 50px;
 }
 
 .mobile-friendly>h4 {
-    /* margin-top: 16px;
-    margin-bottom: 16px; */
     padding-top: 16px;
     padding-bottom: 16px;
     font-size: 24px;
@@ -284,7 +269,6 @@ nav {
 }
 
 .global-community {
-    /* height: 225px; */
     max-width: 790px;
     padding: 40px;
     background-color: rgba(53, 17, 101, 0.4);
@@ -292,8 +276,6 @@ nav {
 }
 
 .global-community>h4 {
-    /* margin-top: 16px; */
-    /* margin-bottom: 16px; */
     padding-top: 16px;
     padding-bottom: 16px;
     font-size: 24px;
@@ -314,7 +296,6 @@ nav {
 }
 
 .interviews {
-    /* max-width: 790px; */
     padding: 40px;
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 50px;
@@ -361,6 +342,7 @@ nav {
 
 
 /* Featured Episodes */
+
 .episodes {
     max-width: 1200px;
     margin: 0 auto;
@@ -382,7 +364,7 @@ nav {
     cursor: pointer;
 }
 
-.vedios>h4 {
+.videos>h4 {
     font-size: 24px;
     font-weight: bold;
     padding: 24px 24px 12px 24px;
@@ -390,7 +372,7 @@ nav {
     gap: 10px;
 }
 
-.vedios>p {
+.videos>p {
     padding: 12px 24px;
     font-size: 16px;
     line-height: 24px;
@@ -398,7 +380,7 @@ nav {
     background-color: #250D44;
 }
 
-.vedios iframe {
+.videos iframe {
     border-radius: 24px 24px 0px 0px;
     width: 100%;
     aspect-ratio: 16/9;
@@ -417,12 +399,14 @@ nav {
     transform: translateY(10px);
 }
 
+
+
 /* Host Section */
 
 
 .host {
-    margin-top: 120px;
-    margin-bottom: 131px;
+    margin-top: 130px;
+    margin-bottom: 50px;
 }
 
 .host>h2 {
@@ -481,7 +465,6 @@ nav {
 /* footer section */
 
 footer {
-    /* border: 1px solid; */
     background-image: url(../assets/footer-bg.png);
     background-size: cover;
     background-position: center;
@@ -490,7 +473,6 @@ footer {
 }
 
 .footer-container {
-    /* border: 1px solid #FB09B4; */
     padding: 120px;
 
 }
@@ -500,12 +482,11 @@ footer {
 }
 
 .contain-header>h1 {
-    font-size: 75px;
+    font-size: 65px;
     padding: 10px;
 }
 
 .footer-icons {
-    /* border: 1px solid #00FF88; */
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 50px;
@@ -529,23 +510,6 @@ footer {
     opacity: 60%;
     margin-top: 32px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -595,10 +559,6 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .details {
-        text-align: center;
     }
 
     .footer-icons {
