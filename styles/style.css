@@ -109,6 +109,7 @@ nav {
     border-radius: 18px;
 }
 
+
 .podcast-details {
     text-align: center;
 }
@@ -412,6 +413,9 @@ nav {
     border-radius: 0px 0px 24px 24px;
 }
 
+.duration :hover{
+    transform: translateY(10px);
+}
 
 /* Host Section */
 
