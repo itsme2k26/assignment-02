@@ -590,12 +590,8 @@ footer {
         width: 100%;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
-    .items-2{
-        
-    }
-
-    .global-community {}
 
     .details {
         text-align: center;
